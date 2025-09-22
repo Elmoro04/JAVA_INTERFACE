@@ -8,22 +8,22 @@ It includes a controller, model classes, and FXML layout definitions.
 ## 📂 Project Structure
 
 
-JAVA_INTERFACE/
-│ App.java # Main entry point of the application
-│ README.md # Project documentation
-│
-├── AppClass/
-│ └── CardsController.java # Controller handling user interactions and business logic
-│
-├── Interface/
-│ └── cards_layout.fxml # JavaFX layout definition
-│
-├── MySQL_Connector/
-│ └── mysql-connector-j-9.4.0.jar # MySQL JDBC driver
-│
-└── Tables/
-├── Card.java # Model class for cards
-└── DatiCarta.java # Model class for card data
+JAVA_INTERFACE/  
+│ App.java # Main entry point of the application  
+│ README.md # Project documentation  
+│  
+├── AppClass/  
+│ └── CardsController.java # Controller handling user interactions and business logic  
+│  
+├── Interface/  
+│ └── cards_layout.fxml # JavaFX layout definition  
+│  
+├── MySQL_Connector/  
+│ └── mysql-connector-j-9.4.0.jar # MySQL JDBC driver  
+│  
+└── Tables/  
+├── Card.java # Model class for cards  
+└── DatiCarta.java # Model class for card data  
 
 
 ---
