@@ -45,9 +45,43 @@ JAVA_INTERFACE/
 
 ---
 
-## 💻 Importing the Project
+## 🏗️ Importing the Project in IntelliJ with Maven
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/Elmoro04/JAVA_INTERFACE.git
-cd JAVA_INTERFACE
+1. **Clone the repository**
+    
+    ```bash
+    git clone https://github.com/Elmoro04/JAVA_INTERFACE.git
+    cd JAVA_INTERFACE
+    ```
+
+2. **Open IntelliJ IDEA**
+   - Go to **File → New → Project from Existing Sources...**
+   - Select the `JAVA_INTERFACE` folder
+   - Choose **Maven** as the project model
+
+3. **Configure Maven**
+   - IntelliJ will automatically detect the `pom.xml` file (make sure it exists in the project root)
+   - Wait until Maven finishes downloading dependencies
+   - If prompted, click **Enable Auto-Import**
+
+4. **Add JavaFX libraries**
+   - Go to **File → Project Structure → Libraries → + → Java**
+   - Select the `lib` folder of your JavaFX SDK (for example `/path/to/javafx-sdk/lib`)
+   - Confirm and apply changes
+
+5. **Configure VM options for JavaFX**
+   - Go to **Run → Edit Configurations...**
+   - Select your run configuration (e.g. `App`)
+   - In **VM options** add:
+
+    ```
+    --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml
+    ```
+
+6. **Run the project**
+   - Open `App.java`
+   - Right-click → **Run 'App.main()'**
+   - The JavaFX interface should start
+
+
+
