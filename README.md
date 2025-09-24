@@ -21,8 +21,8 @@ JAVA_INTERFACE/
 │ └── mysql-connector-j-9.4.0.jar # MySQL JDBC driver  
 │  
 └── Tables/  
-├── Card.java # Model class for cards  
-└── DatiCarta.java # Model class for card data  
+  ├── Card.java # Model class for cards  
+  └── DatiCarta.java # Model class for card data  
 
 
 ---
